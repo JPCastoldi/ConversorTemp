@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id ="form">
+        <h1 id="h1">Conversor de Temperatura</h1>
+        <input type="number" id="txtTemp" value="0"><br>
+
+        <input type="radio" id="paraFa" name="unit">
+        <label for="paraFa">Celcius ➡ Fahrenheit</label><br>
+
+        <input type="radio" id="paraCel" name="unit">
+        <label for="paraCel">Fahrenheit ➡ Celcius</label><br>
+
+        <button type="button" onclick="convert()">Converter</button><br>
+        <p id="resultado"></p>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
