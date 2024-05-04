@@ -8,10 +8,10 @@ let temp
 function convert(){
     if(paraFa.checked){
         temp = txtTemp.value * 1.8 + 32
-        resultado.textContent = temp.toFixed(1) + "ºC"
+        resultado.textContent = temp.toFixed(1) + "ºF"
     }else if(paraCel.checked){
         temp = (txtTemp.value-32)*5/9
-        resultado.textContent = temp.toFixed(1) + "ºF"
+        resultado.textContent = temp.toFixed(1) + "ºC"
     }else{
         resultado.textContent = "Selecione para converter"
     }
